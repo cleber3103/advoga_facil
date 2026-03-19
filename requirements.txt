@@ -1,0 +1,11 @@
+# Advoga Fácil - Dependências
+# Python 3.9+ recomendado
+
+# Geração do executável Windows
+pyinstaller==6.10.0
+
+# Exportação de relatórios em Excel (opcional)
+openpyxl==3.1.5
+
+# Backup automático (usado no módulo utils/backup.py)
+# Nenhuma dependência extra — usa sqlite3 built-in e shutil
